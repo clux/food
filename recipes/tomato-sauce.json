@@ -1,0 +1,35 @@
+{
+  "ingredients": {
+    "onions": { "amount": 2, "type": "red" },
+    "garlic": { "amount": 5, "unit": "cloves" },
+    "chilli": { "amount": 0, "optional": true},
+    "tomatoes": [
+      { "amount": 2, "unit": "tins", "type": "chopped" },
+      { "amount": 0.5, "unit": "jars", "type": "sundried" },
+      { "amount": 0.5, "unit": "tubes", "type": "puree" }
+    ],
+    "basil": { "amount": 1, "unit": "pack", "type": "fresh" },
+    "oregano": { "amount": 3, "unit": "tbsp" },
+    "pepper": [
+      { "amount": 2, "unit": "tbsp", "type": "coarse ground" },
+      { "amount": 2, "unit": "tbsp", "type": "white" }
+    ],
+    "vinegar": { "amount": 2, "unit": "tbsp", "type": "red-wine" },
+    "sugar": { "amount": 1, "unit": "tbsp", "type": "plain" }
+  },
+  "time": {
+    "preparation": 5,
+    "cooking": 15
+  },
+  "instructions": [
+    "In large pot, fry onions until golden",
+    "Add garlic and chillies and fry lightly",
+    "Add chopped tomatoes",
+    "Add sundrieds, puree, basil leaves",
+    "Add seasoning",
+    "Blitz",
+    "Adjust seasoning to taste",
+    "Cook on low heat for 10 minutes",
+    "Add vinegar and sugar"
+  ]
+}

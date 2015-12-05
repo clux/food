@@ -3,6 +3,28 @@ var fs = require('fs');
 var path = require('path');
 var ingredients = require('./ingredients.json');
 
+// Cascades the json variables down the tree when not present below
+var cascade = (data) => {
+  var extendables = ['container', 'size', 'unit'];
+  Object.keys(data).forEach(name => {
+    var el = data[name];
+    // Can be generalized here when traversing more than `types`
+    if (typeof el.types === 'object') {
+      Object.keys(el.types).forEach(typeName => {
+        var type = el.types[typeName];
+        extendables.forEach(ext => {
+          // override if undefined, and defined above
+          // it is ok to set the inner one to null to override an outer value
+          if (type[ext] === undefined && el[ext] !== undefined) {
+            type[ext] = el[ext];
+          }
+        });
+      });
+    }
+  });
+  return data;
+};
+
 var getJson = function (name, cb) {
   var key = path.basename(name, '.json');
   fs.readFile(name, function (err, res) {
@@ -38,5 +60,8 @@ var getJsons = function (dir) {
 
 module.exports = function *() {
   var recipes = yield getJsons('./recipes');
-  return { ingredients, recipes };
+  return {
+    ingredients: cascade(ingredients),
+    recipes: recipes
+  };
 };
