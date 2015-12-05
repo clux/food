@@ -1,0 +1,29 @@
+{
+  "ingredients": {
+    "butter": [125, { "condition": "softened" }],
+    "sugar": [200, { "type": "dark muscavado" }],
+    "eggs": 2,
+    "bananas": [4, { "type": "large", "condition": "ripe" }],
+    "chocolate": [100, { "type": "80%" }],
+    "flour": [250, { "type": "plain" }],
+    "baking-powder": [1, { "unit": "tbsp" }],
+    "vanilla-extract": [1, { "unit": "tsp" }]
+  },
+  "time": {
+    "preparation": 15,
+    "baking": 50
+  },
+  "baking": {
+    "temperature": 180
+  },
+  "instructions": [
+    "Heat oven",
+    "In large bowl, cream butter and sugar together until light and fluffy",
+    "Beat in the eggs one at a time",
+    "In separate bowl, mash bananas lightly with a fork and stir in vanilla extract",
+    "Chop chocolate finely",
+    "Fold chocolate and banana batter in with butter mixture",
+    "Add flour and baking powder gently",
+    "Scrape into a non-stick baking tin"
+  ]
+}

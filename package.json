@@ -1,0 +1,27 @@
+{
+  "name": "food",
+  "description": "Food Framework",
+  "private": true,
+  "author": "Eirik Albrigtsen <analsandblaster@gmail.com>",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "clux/food"
+  },
+  "keywords": [],
+  "main": "food.js",
+  "scripts": {
+    "test": "bndg test/*.test.js"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "bandage": "^0.3.2"
+  },
+  "bugs": {
+    "url": "http://github.com/clux/food/issues"
+  },
+  "license": "MIT"
+}
