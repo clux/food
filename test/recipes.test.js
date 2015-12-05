@@ -16,12 +16,13 @@ test('recipes', function *(t) {
       if (typeof args === 'number') {
         t.pass('ingredient arguments for ' + name + ' is simple quantity');
       }
+      else if (Array.isArray(args)) {
+        // verify each element as below
+      }
       else {
-        t.instance(args, Array, 'ingredient arguments for ' + name + ' is array');
-        t.equal(args.length, 2, 'two ingredient arguments for ' + name);
-        t.type(args[0], 'number', '1st ingredient arg for ' + name + ' is quantity');
-        t.type(args[1], 'object', '2nd ingredient arg for ' + name + ' is params');
-        // TODO: verify the names passed into args[1]
+        t.type(args, 'object', 'ingredient arguments for ' + name + ' is array');
+        t.type(args.amount, 'number', '1st ingredient arg for ' + name + ' is quantity');
+        // loop over keys and verify they are the allowed subset of correct types
       }
       // verify that the ingredient exists
       var ing = f.ingredients[name];

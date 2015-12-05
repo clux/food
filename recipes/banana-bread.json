@@ -1,13 +1,13 @@
 {
   "ingredients": {
-    "butter": [125, { "condition": "softened" }],
-    "sugar": [200, { "type": "dark muscavado" }],
+    "butter": { "amount": 125, "condition": "softened" },
+    "sugar": { "amount": 200, "type": "dark muscavado" },
     "eggs": 2,
-    "bananas": [4, { "type": "large", "condition": "ripe" }],
-    "vanilla-extract": [1, { "unit": "tsp" }],
-    "chocolate": [100, { "type": "80%" }],
-    "flour": [250, { "type": "plain" }],
-    "baking-powder": [1, { "unit": "tbsp" }]
+    "bananas": { "amount": 4, "type": "large", "condition": "ripe" },
+    "vanilla": { "amount": 1, "unit": "tsp" },
+    "chocolate": { "amount": 100, "type": "80%" },
+    "flour": { "amount": 250, "type": "plain" },
+    "baking-powder": { "amount": 1, "unit": "tbsp" }
   },
   "time": {
     "preparation": 15,

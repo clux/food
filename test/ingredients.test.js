@@ -7,12 +7,20 @@ test('ingredients', function *(t) {
   for (var name of Object.keys(f.ingredients)) {
     t.ok(name, 'name of ' + name);
     var i = f.ingredients[name];
-    t.type(i.size, 'number', 'numeric size for ' + i.name);
     // ingredient can vary - these are customizations:
-    if (i.type || i.types) {
-      t.ok(i.type, 'type set of ' + i.name);
-      t.instance(i.types, Array, 'types set for ' + i.name);
-      t.in(i.type, i.types, 'type in types for ' + i.name);
+    if (i.types) {
+      if (Array.isArray(i.types)) {
+        t.type(i.size, 'number', 'global numeric size for ' + name);
+        t.ok(i.default, 'default type set for ' + name);
+        t.in(i.default, i.types, 'type in types for ' + name);
+      }
+      else {
+        if (!i.size) {
+          // all keys must have size
+        }
+        // all i.types[x].size keys must be int
+        // all i.types[x].container keys must be string if set
+      }
     }
   }
 });

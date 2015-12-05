@@ -12,3 +12,32 @@ Once common recipes are mapped, can potentially:
 - warn about expiration date clashes in shopping list
 - hook list into grocery delivery APIs
 - run time optimization algorithms for multiple recipes
+
+## Ingredients
+Currently locked in this repo.
+
+### Format
+All data is pure JSON, but illustrated here in javascript with comments:
+
+```js
+{
+  "basil": {
+    "unit": "g", // measurement unit used in amounts
+    "types": { // complete list of types and associated values
+      "fresh": {
+        "size": 31, // amount of units found in container
+        "container": "pack" // can be used as shorthand unit e.g. "unit": "pack"
+      },
+      "dried": {
+        "size": 10,
+        "container": "jar"
+      }
+    },
+    "default": "dried" // default type in types object
+  }
+}
+```
+
+- `size` + `container` can be lifted if they are equal for all `types`, e.g. sugar
+- `types` can be an array of keys if everything can be lifted
+- `unit` + `container` can be left blank or set to `null` if `container === name`, e.g. bananas.

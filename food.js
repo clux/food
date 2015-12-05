@@ -1,6 +1,7 @@
 var async = require('async');
 var fs = require('fs');
 var path = require('path');
+var ingredients = require('./ingredients.json');
 
 var getJson = function (name, cb) {
   var key = path.basename(name, '.json');
@@ -36,8 +37,6 @@ var getJsons = function (dir) {
 };
 
 module.exports = function *() {
-  // TODO: really want data.name to be a key so we return a nested dict
-  var ingredients = yield getJsons('./ingredients');
   var recipes = yield getJsons('./recipes');
   return { ingredients, recipes };
 };

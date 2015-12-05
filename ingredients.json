@@ -1,0 +1,127 @@
+{
+  "baking-powder": {
+    "size": 170,
+    "unit": "g"
+  },
+  "bananas": {
+    "size": 1,
+    "default": "large",
+    "types": ["large", "medium"]
+  },
+  "basil": {
+    "unit": "g",
+    "types": {
+      "dried": {
+        "size": 10,
+        "container": "jar"
+      },
+      "fresh": {
+        "size": 31,
+        "container": "pack"
+      }
+    },
+    "default": "dried"
+  },
+  "butter": {
+    "size": 250,
+    "default": "unsalted",
+    "types": ["unsalted", "salted"],
+    "unit": "g"
+  },
+  "chilli": {
+    "types": {
+      "crushed": {
+        "size": 28,
+        "container": "jar",
+        "unit": "g"
+      },
+      "red": {},
+      "green": {},
+      "habanero": {},
+      "scotch-bonnet": {}
+    },
+    "default": "fresh"
+  },
+  "chocolate": {
+    "size": 100,
+    "default": "70%",
+    "types": ["40%", "50%", "60%", "70%", "80%"],
+    "unit": "g"
+  },
+  "eggs": {
+    "size": 6,
+    "default": "large",
+    "types": ["large", "medium"]
+  },
+  "flour": {
+    "size": 500,
+    "default": "plain",
+    "types": ["plain", "bread"],
+    "unit": "g"
+  },
+  "garlic": {
+    "size": 1,
+    "unit": "bulb",
+    "conversions": {
+      "cloves": 9
+    }
+  },
+  "onions": {
+    "size": 1,
+    "types": ["red", "white"],
+    "default": "red"
+  },
+  "oregano": {
+    "size": 7,
+    "container": "jar"
+  },
+  "pepper": {
+    "unit": "g",
+    "size": 30,
+    "container": "jar",
+    "types": ["white", "coarse-ground", "ground"],
+    "default": "coarse-ground"
+  },
+  "sugar": {
+    "size": 500,
+    "default": "granulated",
+    "types": ["granulated", "dark muscavado", "dark soft brown", "demerara"],
+    "unit": "g"
+  },
+  "tomatoes": {
+    "unit": "g",
+    "types": {
+      "puree": {
+        "size": 200,
+        "container": "tube"
+      },
+      "chopped": {
+        "size": 400,
+        "container": "pack"
+      },
+      "sundried": {
+        "size": 300,
+        "container": "jar"
+      }
+    }
+  },
+  "vanilla": {
+    "types": {
+      "extract": {
+        "size": 118,
+        "container": "jar",
+        "unit": "ml"
+      }
+    },
+    "default": "extract"
+  },
+  "vinegar": {
+    "unit": "ml",
+    "container": "bottle",
+    "types": {
+      "red-wine": {
+        "size": 350
+      }
+    }
+  }
+}
