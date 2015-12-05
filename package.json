@@ -11,14 +11,17 @@
   "keywords": [],
   "main": "food.js",
   "scripts": {
-    "test": "bndg test/*.test.js"
+    "test": "bndg test/*.test.js",
+    "precoverage": "istanbul cover bndg test/*.test.js",
+    "coverage": "cat coverage/lcov.info && rm -rf coverage"
   },
   "dependencies": {
     "async": "^1.5.0",
     "co": "^4.6.0"
   },
   "devDependencies": {
-    "bandage": "^0.3.2"
+    "bandage": "^0.3.2",
+    "istanbul": "^0.4.1"
   },
   "bugs": {
     "url": "http://github.com/clux/food/issues"
