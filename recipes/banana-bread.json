@@ -4,10 +4,10 @@
     "sugar": [200, { "type": "dark muscavado" }],
     "eggs": 2,
     "bananas": [4, { "type": "large", "condition": "ripe" }],
+    "vanilla-extract": [1, { "unit": "tsp" }],
     "chocolate": [100, { "type": "80%" }],
     "flour": [250, { "type": "plain" }],
-    "baking-powder": [1, { "unit": "tbsp" }],
-    "vanilla-extract": [1, { "unit": "tsp" }]
+    "baking-powder": [1, { "unit": "tbsp" }]
   },
   "time": {
     "preparation": 15,
