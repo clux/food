@@ -62,6 +62,24 @@
     },
     "unit": "g"
   },
+  "coconut-milk": {
+    "size": "400",
+    "unit": "ml",
+    "container": "tin"
+  },
+  "couscous": {
+    "size": "500",
+    "unit": "g"
+  },
+  "dip": {
+    "types": {
+      "garlic-onion": {},
+      "soured-cream-chive": {}
+    },
+    "default": "soured-cream-chive",
+    "size": 200,
+    "unit": "g"
+  },
   "eggs": {
     "size": 6,
     "default": "large",
@@ -69,6 +87,13 @@
       "large": {},
       "medium": {}
     }
+  },
+  "falafels": {
+    "size": 8,
+    "container": "pack"
+  },
+  "fish-sauce": {
+    "unit": "ml"
   },
   "flour": {
     "size": 500,
@@ -85,6 +110,27 @@
     "conversions": {
       "cloves": 9
     }
+  },
+  "lemon-grass": {
+    "size": 2
+  },
+  "lettuce": {
+    "size": 260,
+    "unit": "g",
+    "container": "pack"
+  },
+  "lime": {
+    "size": 1
+  },
+  "lime-leaves": {
+  },
+  "lime-juice": {
+    "unit": "ml"
+  },
+  "mushrooms": {
+    "unit": "g",
+    "size": "300",
+    "container": "pack"
   },
   "onions": {
     "size": 1,
@@ -109,6 +155,11 @@
     },
     "default": "coarse-ground"
   },
+  "prawns": {
+    "unit": "g",
+    "size": 250,
+    "container": "pack"
+  },
   "sugar": {
     "size": 500,
     "unit": "g",
@@ -116,9 +167,21 @@
       "granulated": {},
       "dark-muscavado": {},
       "dark-soft-brown": {},
+      "brown": {},
       "demerara": {}
     },
     "default": "granulated"
+  },
+  "stock": {
+    "unit": "g",
+    "size": 28,
+    "container": "pot",
+    "default": "chicken",
+    "types": {
+      "chicken": {},
+      "mean": {},
+      "vegetable": {}
+    }
   },
   "tomatoes": {
     "unit": "g",
@@ -143,6 +206,11 @@
     },
     "default": "normal"
   },
+  "tom-yum-paste": {
+    "unit": "g",
+    "size": 95,
+    "container": "jar"
+  },
   "vanilla": {
     "types": {
       "extract": {
@@ -162,5 +230,8 @@
       }
     },
     "default": "red-wine"
+  },
+  "water": {
+    "unit": "ml"
   }
 }

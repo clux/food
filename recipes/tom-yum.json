@@ -1,0 +1,39 @@
+{
+  "ingredients": {
+    "water": { "amount": 750, "unit": "ml" },
+    "stock": { "amount": 1, "unit": "pack", "type": "chicken" },
+    "garlic": { "amount": 2, "unit": "cloves", "condition": "chopped" },
+    "lemon-grass": { "amount": 2, "unit": "stalks", "condition": "chopped" },
+    "onions": { "amount": 1, "type": "white", "condition": "diced" },
+    "lime-leaves": { "amount": 4, "optional": true },
+    "coconut-milk": { "amount": 400, "unit": "ml", "optional": true },
+    "mushrooms": { "amount": 1, "unit": "pack", "condition": "diced" },
+    "tom-yum-paste": { "amount": 1, "unit": "tbsp" },
+    "tomatoes": { "amount": 1, "condition": "sliced" },
+    "lime-juice": { "amount": 1, "unit": "tbsp" },
+    "chilli": { "amount": 2, "type": "green" },
+    "prawns": { "amount": 125, "unit": "g" },
+    "fish-sauce": { "amount": 1, "unit": "tbsp" },
+    "sugar": { "amount": 1, "unit": "tbsp", "type": "brown" }
+   },
+  "substitutions": {
+    "lime-juice": { "lime": { "amount": 0.5, "condition": "juiced" } },
+    "chilli": { "chilli": { "amount": 1, "type": "scotch-bonnet", "condition": "de-seeded" } },
+    "sugar": { "sugar": { "amount": 2, "type": "dark-muscavado" } },
+    "onions": { "shallots": { "amount": 5 } }
+  },
+  "time": {
+    "preparation": 10,
+    "cooking": 15
+  },
+  "instructions": [
+    "Bring stock water in large pot to simmer",
+    "Prepare lemon grass (remove outermost leaf + pound + slice in 2cm pieces)",
+    "Dice garlic, mushrooms, tomatoes, and onions (wash mushrooms)",
+    "Stir in tom yum paste + herbs + onions and boil for 10 minutes",
+    "Add coconut milk if doing a creamy version or if you added too much chilli",
+    "Add mushrooms and prawns and cook for a few minutes",
+    "Add tomatoes and simmer for 2-3 minutes",
+    "Season with fish sauce and sugar"
+  ]
+}

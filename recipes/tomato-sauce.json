@@ -11,11 +11,11 @@
     "basil": { "amount": 1, "unit": "pack", "type": "fresh" },
     "oregano": { "amount": 3, "unit": "tbsp" },
     "pepper": [
-      { "amount": 2, "unit": "tbsp", "type": "coarse ground" },
+      { "amount": 2, "unit": "tbsp", "type": "coarse-ground" },
       { "amount": 2, "unit": "tbsp", "type": "white" }
     ],
     "vinegar": { "amount": 2, "unit": "tbsp", "type": "red-wine" },
-    "sugar": { "amount": 1, "unit": "tbsp", "type": "plain" }
+    "sugar": { "amount": 1, "unit": "tbsp", "type": "granulated" }
   },
   "time": {
     "preparation": 5,

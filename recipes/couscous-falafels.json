@@ -1,0 +1,28 @@
+{
+  "ingredients": {
+    "falafels": { "amount": 1, "unit": "pack" },
+    "tomatoes": { "amount": 1, "condition": "sliced" },
+    "water": { "amount": 150, "unit": "ml" },
+    "couscous": { "amount": 100, "unit": "g" },
+    "stock": { "amount": 0.5, "unit": "pack", "type": "chicken" },
+    "lime-juice": { "amount": 1, "unit": "tbsp", "optional": true },
+    "lettuce": { "amount": 1, "unit": "claw" },
+    "dip": { "amount": 2, "unit": "tbsp", "type": "garlic-onion" }
+   },
+  "substitutions": {
+    "lettuce": { "spinach": { "amount": 1, "unit": "claw" } }
+  },
+  "time": {
+    "preparation": 5,
+    "cooking": 15
+  },
+  "instructions": [
+    "Turn oven to 180 and slice tomatoes",
+    "Place falafels and tomatoes (season) in separate areas on a tray",
+    "Put in oven for 15 minutes",
+    "Measure couscus and put in a bowl",
+    "Measure boiling water and mix in stock",
+    "Pour boiling stock water on top of couscous and put a lid on it",
+    "Serve together with lettuce and dip"
+  ]
+}

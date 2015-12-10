@@ -26,14 +26,17 @@ var cascade = (data) => {
 };
 
 var getJson = function (name, cb) {
-  var key = path.basename(name, '.json');
   fs.readFile(name, function (err, res) {
     if (err) { return cb(err); }
-    var data;
-    try { data = JSON.parse(res); }
-    catch (e) { return cb(e); }
-    data.name = key;
-    cb(null, data);
+    try {
+      var data = JSON.parse(res);
+      data.name = name.match(/\w\/([\w-]*).json/)[1];
+      return cb(null, data);
+    }
+    catch (e) {
+      console.error('Failed to parse', name);
+      cb(e);
+    }
   });
 };
 
@@ -65,3 +68,7 @@ module.exports = function *() {
     recipes: recipes
   };
 };
+
+if (module === require.main) {
+  require('co')(module.exports()).then(res => console.log(res))
+}

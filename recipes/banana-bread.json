@@ -1,7 +1,7 @@
 {
   "ingredients": {
     "butter": { "amount": 125, "condition": "softened" },
-    "sugar": { "amount": 200, "type": "dark muscavado" },
+    "sugar": { "amount": 200, "type": "dark-muscavado" },
     "eggs": 2,
     "bananas": { "amount": 4, "type": "large", "condition": "ripe" },
     "vanilla": { "amount": 1, "unit": "tsp" },
@@ -13,8 +13,8 @@
     "preparation": 15,
     "baking": 50
   },
-  "baking": {
-    "temperature": 180
+  "temperatures": {
+    "oven": 180
   },
   "instructions": [
     "Heat oven",
