@@ -1,0 +1,25 @@
+{
+  "ingredients": {
+    "salmon": { "amount": 2, "unit": "fillet" },
+    "marinade": { "amount": 3, "unit": "tbsp", "type": "honey-mustard" },
+    "asparagus": { "amount": 1, "unit": "pack" }
+  },
+  "substitutions": {
+    "asparagus": { "brocolli": { "amount": 1, "unit": "pack" } }
+  },
+  "time": {
+    "preparation": 5,
+    "cooking": 20
+  },
+  "instructions": [
+    "Turn oven to 180",
+    "Put fish skin side down on a tray with baking paper",
+    "Coat fish in small layer of marinade and seasoning",
+    "Put in the middle of the oven for 20 minutes",
+    "Boil kettle",
+    "Wash and prepare vegetables",
+    "When 7 minutes left of fish, pour boiled water in a pot and heat up again",
+    "Add vegetables when boiling again",
+    "Serve fish and vegetables at the same time"
+  ]
+}

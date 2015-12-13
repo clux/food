@@ -1,4 +1,9 @@
 {
+  "asparagus": {
+    "unit": "g",
+    "size": 100,
+    "container": "pack"
+  },
   "baking-powder": {
     "size": 170,
     "unit": "g"
@@ -25,6 +30,11 @@
     },
     "default": "dried"
   },
+  "broccoli": {
+    "unit": "g",
+    "size": 200,
+    "container": "pack"
+  },
   "butter": {
     "size": 250,
     "unit": "g",
@@ -35,6 +45,9 @@
     },
     "default": "unsalted"
 
+  },
+  "clementines": {
+    "size": 1
   },
   "chilli": {
     "size": 6,
@@ -123,9 +136,19 @@
     "size": 1
   },
   "lime-leaves": {
+    "size": 1
   },
   "lime-juice": {
     "unit": "ml"
+  },
+  "marinade": {
+    "unit": "g",
+    "types": {
+      "honey-mustard": {
+        "size": 270
+      }
+    },
+    "default": "honey-mustard"
   },
   "mushrooms": {
     "unit": "g",
@@ -155,10 +178,18 @@
     },
     "default": "coarse-ground"
   },
+  "pomegranate": {
+    "size": 1
+  },
   "prawns": {
     "unit": "g",
     "size": 250,
     "container": "pack"
+  },
+  "salmon": {
+    "size": 200,
+    "unit": "g",
+    "container": "fillet"
   },
   "sugar": {
     "size": 500,
@@ -233,5 +264,15 @@
   },
   "water": {
     "unit": "ml"
+  },
+  "yoghurt": {
+    "unit": "g",
+    "size": 500,
+    "types": {
+      "plain": {},
+      "vanilla": {},
+      "coconut": {}
+    },
+    "default": "plain"
   }
 }
