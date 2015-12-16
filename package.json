@@ -9,6 +9,7 @@
     "url": "clux/food"
   },
   "keywords": [],
+  "bin": "bin.js",
   "main": "food.js",
   "scripts": {
     "test": "bndg test/*.test.js",
@@ -21,7 +22,8 @@
   },
   "devDependencies": {
     "bandage": "^0.4.0",
-    "istanbul": "^0.4.1"
+    "istanbul": "^0.4.1",
+    "minimist": "^1.2.0"
   },
   "bugs": {
     "url": "http://github.com/clux/food/issues"
