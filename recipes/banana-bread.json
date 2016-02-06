@@ -5,9 +5,13 @@
     "eggs": 2,
     "bananas": { "amount": 4, "type": "large", "condition": "ripe" },
     "vanilla": { "amount": 1, "unit": "tsp" },
+    "espresso-powder": { "amount": 0.5, "unit": "tsp", "optional": true },
     "chocolate": { "amount": 100, "type": "80%" },
     "flour": { "amount": 250, "type": "plain" },
     "baking-powder": { "amount": 1, "unit": "tbsp" }
+  },
+  "substitutions": {
+    "espresso-powder": { "coffee-powder": { "amount": 0.5, "unit": "tsp" } }
   },
   "time": {
     "preparation": 15,
