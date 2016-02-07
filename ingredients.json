@@ -76,13 +76,25 @@
     "unit": "g"
   },
   "coconut-milk": {
-    "size": "400",
+    "size": 400,
     "unit": "ml",
     "container": "tin"
   },
+  "coffee-powder": {
+    "unit": "g",
+    "size": 100,
+    "types": {
+      "espresso": {}
+    },
+    "default": "espresso"
+  },
   "couscous": {
-    "size": "500",
+    "size": 500,
     "unit": "g"
+  },
+  "creme-fraiche": {
+    "size": 400,
+    "unit": "ml"
   },
   "dip": {
     "types": {
@@ -152,8 +164,13 @@
   },
   "mushrooms": {
     "unit": "g",
-    "size": "300",
-    "container": "pack"
+    "size": 300,
+    "container": "pack",
+    "types": {
+      "chestnut": {},
+      "portobello": {}
+    },
+    "default": "chestnut"
   },
   "onions": {
     "size": 1,

@@ -1,0 +1,22 @@
+{
+  "ingredients": {
+    "mushrooms": { "amount": 1, "unit": "pack", "type": "portobello" },
+    "flour": { "amount": 3, "unit": "tbsp" },
+    "creme-fraiche": { "amount": 3, "unit": "tbsp" },
+    "stock": { "amount": 1, "unit": "pot" },
+    "water": { "amount": 200, "unit": "ml" }
+  },
+  "time": {
+    "preparation": 5,
+    "cooking": 20
+  },
+  "instructions": [
+    "In large pot, fry mushrooms in generous amounts of butter",
+    "Add salt and pepper",
+    "Boil water",
+    "Add flour, and mix well",
+    "Mix stock and water, then add to mushroom mix",
+    "Add creme fraiche and stir",
+    "Reduce for 10+ minutes"
+  ]
+}
