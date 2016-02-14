@@ -70,5 +70,5 @@ module.exports = function *() {
 };
 
 if (module === require.main) {
-  require('co')(module.exports()).then(res => console.log(res))
+  require('co')(module.exports()).then(res => console.log(res));
 }
