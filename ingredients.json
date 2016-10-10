@@ -191,7 +191,8 @@
     "types": {
       "white": {},
       "coarse-ground": {},
-      "ground": {}
+      "ground": {},
+      "cayenne": {}
     },
     "default": "coarse-ground"
   },

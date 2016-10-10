@@ -1,12 +1,11 @@
 {
   "ingredients": {
-    "water": { "amount": 750, "unit": "ml" },
+    "water": { "amount": 1000, "unit": "ml" },
     "stock": { "amount": 1, "unit": "pack", "type": "chicken" },
     "garlic": { "amount": 2, "unit": "cloves", "condition": "chopped" },
     "lemon-grass": { "amount": 2, "unit": "stalks", "condition": "chopped", "optional": true },
     "onions": { "amount": 1, "type": "white", "condition": "diced" },
     "lime-leaves": { "amount": 4, "optional": true },
-    "coconut-milk": { "amount": 400, "unit": "ml", "optional": true },
     "mushrooms": { "amount": 0.5, "unit": "pack", "condition": "diced" },
     "tom-yum-paste": { "amount": 2, "unit": "tbsp" },
     "tomatoes": { "amount": 1, "condition": "sliced" },
