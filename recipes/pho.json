@@ -1,0 +1,64 @@
+{
+  "ingredients": {
+    "water": { "amount": 1000, "unit": "ml" },
+    "kombu-leaves": { "amount": 2, "unit": "foot-long-square", "condition": "whole" },
+    "shiitake": { "amount": 0.5, "type": "dried", "condition": "wwole" },
+    "onions": { "amount": 1, "unit": "hemispheres", "condition": "bisected" },
+    "shallot": { "amount": 4, "type": "echalion", "condition": "bisected" },
+    "garlic": { "amount": 1, "unit": "bulb", "condition": "peeled + smashed" },
+    "ginger": { "amount": 5, "type": "cm", "condition": "sliced" },
+    "fish-sauce": { "amount": 1, "unit": "tbsp" },
+    "worchester-sauce": { "amount": 1, "unit": "tbsp" },
+    "soy-sauce": { "amount": 1, "unit": "tbsp" },
+    "mirin": { "amount": 2, "unit": "tbsp" },
+    "cloves": { "amount": 1, "unit": "tsp" },
+    "cinnamon": { "amount": 1, "unit": "tsp" },
+
+    "mini-cabbages": { "amount": 2, "unit": "self", "condition": "quartered" },
+    "mushrooms": { "amount": 4, "unit": "self", "condition": "cubed", "type": "portobello" },
+
+    "thai-basil": { "amount": 1, "unit" : "bag" },
+    "lime": { "amount": 1, "condition": "quartered" },
+    "spring-onion": { "amount": 1, "unit": "bundle", "condition": "sliced" },
+    "chillies": { "amount": 4, "type": "mixed", "condition": "sliced" },
+    "bean-sprouts": { "amount": 1, "unit": "serving" },
+    "rice-noodles": { "amount": 1, "unit": "serving" }
+   },
+  "substitutions": {
+    "daikon": { "shallots": { "amount": 1, "condition": "sliced" } },
+    "tofu": { "portobellos": {  "amount": 1, "condition": "sliced", "type": "silken" } },
+    "beep": { "portobellos": {  "amount": 1, "condition": "sliced", "type": "sirloin" } }
+  },
+  "time": {
+    "preparation": 15,
+    "cooking": 30
+  },
+  "instructions": [
+    "Leave kombu-leaves + shiitake mushrooms in 1l of water for 1->8hours",
+    "Char bisected onions+shallots on high heat in oil for 3 minutes",
+    "Add garlic, ginger, and separate shallot into sheets (leave big onion alone)",
+    "Turn on oven for 180 degrees, fan",
+    "Once everything is slightly charred, dump water with kombu + shiitake into pan",
+    "At 80 degrees, remove shiitake + kombu from pot + add fish-sauce + worchester",
+    "Leave to simmer while you make the rest",
+
+    "Prepare mini-cabbages + remove core. Season with oil, salt, pepper, garlic powder",
+    "Place cabbages in oven on foil for 20 minutes",
+    "Start heating water water for noodles and sprouts (for just before serving)",
+
+    "Sautee cubed portobellos in a skillet with only an eight a cup of water",
+    "Once water evaporated, add small amount of oil, then some butter + seasoning",
+    "See https://www.youtube.com/watch?v=XLPLCmwBLBY for why.",
+
+    "Prepare bean-sprouts, chillies, thai basil",
+    "Dump thai basil, green chillies, cloves, and cinnamon into broth",
+    "Keep red sliced chillies + half a lime",
+
+    "Remove whole onion from broth (keep shallot sheets)",
+    "Finalize broth with soy-sauce, mirin",
+
+    "Quickly heat rice noodles with cleaned sprouts for 30s then dump into bowl",
+    "Ladle up broth on top. Top with cabbages and mushrooms on top",
+    "Side-bowl with extra chillies, excess bean-sprouts, spring-onions, limes"
+  ]
+}

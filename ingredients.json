@@ -4,6 +4,9 @@
     "size": 100,
     "container": "pack"
   },
+  "avocado": {
+    "size": 1
+  },
   "baking-powder": {
     "size": 170,
     "unit": "g"
@@ -136,6 +139,10 @@
       "cloves": 9
     }
   },
+  "kombu-leaves": {
+    "size": 8,
+    "unit": "sheet"
+  },
   "lemon-grass": {
     "size": 2
   },
@@ -220,6 +227,24 @@
       "demerara": {}
     },
     "default": "granulated"
+  },
+  "shallot": {
+    "size": 1,
+    "types": {
+      "echalion": {},
+      "shallot": {}
+    },
+    "default": "shallot"
+  },
+  "shiitake": {
+    "unit": "g",
+    "size": 300,
+    "container": "pack",
+    "types": {
+      "dried": {},
+      "fresh": {}
+    },
+    "default": "fresh"
   },
   "stock": {
     "unit": "g",
