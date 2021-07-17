@@ -1,0 +1,34 @@
+{
+  "ingredients": {
+    "water": { "amount": 1000, "unit": "ml" },
+    "stock": { "amount": 1, "unit": "pack", "type": "pho" },
+    "garlic": { "amount": 2, "unit": "cloves", "condition": "chopped" },
+    "tom-yum-veg": { "amount": 1, "unit": "pack", "condition": "frozen" },
+    "onions": { "amount": 0.5, "type": "red", "condition": "diced" },
+    "leek": { "amount": 1, "condition": "julienned" },
+    "mushrooms": { "amount": 0.5, "type": "shiitake", "unit": "pack", "condition": "halved" },
+    "tomatoes": { "amount": 1, "condition": "sliced" },
+    "chilli": { "amount": 2, "type": "logama", "unit": "tbsp" },
+    "bacon": { "amount": 3, "unit": "slices", "condition": "diced" },
+    "fish-sauce": { "amount": 1, "unit": "tbsp", "optional": true },
+    "coconut-milk": { "amount": 0.5, "unit": "can" },
+    "noodles": { "amount": 1, "unit": "ramen-pack", "optional": true }
+   },
+  "substitutions": {
+    "onions": { "shallots": { "amount": 5 } },
+    "bacon": { "bacon-lardons": { "amount": 0.5 } }
+  },
+  "time": {
+    "preparation": 10,
+    "cooking": 15
+  },
+  "instructions": [
+    "Bring stock water in large pot to simmer",
+    "Add diced onions, tom yum veg package, bacon and leeks",
+    "Simmer for 10min",
+    "Add coconut milk if doing a creamy version or if you added too much chilli",
+    "Add mushrooms, tomatoes, extra spice (maybe a bit of salt-pepper), and simmer for 2-3 mins",
+    "Add a pack of ramen noodles for extras",
+    "Season with fish sauce and sugar"
+  ]
+}
